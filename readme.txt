@@ -1,12 +1,11 @@
 
-W g³ównym oknie s¹ listy z aktywami, inwestorami i funduszami.
-Po wcisniêciu "dodaj obiekt" w nowym oknie wybiera siê z checkboxa jaki obiekt chce siê dodaæ i wype³nia siê pola, albo s¹ one same losowane. Kolejne "dodaj obiekt" tworzy obiekt (je¿eli ma w¹tek, to go uruchamia). 
-Aby zobaczyæ obiekty w oknie g³ównym, trzeba u¿yæ odœwie¿ania. "Odœwie¿ aktywa" odœwie¿a równie¿ rynki wyœwietlane nad listami aktywów, przy czym w programie dzia³a tylko 1 rynek ka¿dego typu, mo¿na ich tworzyæ wiêcej, ale "aktywny" jest zawsze pierwszy z listy. Wciœniêcie "Odœwie¿ aktywa" tworzy równie¿ inwestorów i fundusze proporcjonalnie do liczby aktywów na rynku i uruchamia ich w¹tki.
-"Odœwie¿ inwestorów" tylko odœwie¿a listy inwestorów i funduszy.
-Po wybraniu aktywa na liœcie, na dole wyœwietl¹ siê informacje o nim. Po zaznaczeniu spó³ki mo¿na pod list¹ spó³ek wpisaæ kwotê, za któr¹ wybrana spó³ka ma odkupiæ swoje akcje.
-Po wybraniu inwestora/funduszu po prawej wyœwietl¹ siê informacje o jednym z nich, wraz z list¹ posiadanych aktywów.
-Przycisk "Stop" zatrzymuje dzia³anie w¹tków (do serializacji), ale nie od razu. Wykonuj¹ dalej kod metody run() do koñca, tylko ¿e nie wchodz¹ ju¿ z powrotem w pêtlê. Po wciœniêciu nale¿y poczekaæ (co najmniej 10 sekund), ¿eby mieæ pewnoœæ, ¿e wsyztskie w¹tki przesta³y dzia³aæ.
-Mia³ byæ przycisk "start", ale nie chcia³ dzia³aæ.
-Przycisk "zapisz" dokonuje zapisu-serializacji, "wczytaj" powinien dokonywaæ odczytu-serializacji, ale dzia³a tylko "czêœciowo" i wyskakuj¹ b³êdy.
+W gÅ‚Ã³wnym oknie sÄ… listy z aktywami, inwestorami i funduszami.
+Po wcisniÄ™ciu "dodaj obiekt" w nowym oknie wybiera siÄ™ z checkboxa jaki obiekt chce siÄ™ dodaÄ‡ i wypeÅ‚nia siÄ™ pola, albo sÄ… one same losowane. Kolejne "dodaj obiekt" tworzy obiekt (jeÅ¼eli ma wÄ…tek, to go uruchamia). 
+Aby zobaczyÄ‡ obiekty w oknie gÅ‚Ã³wnym, trzeba uÅ¼yÄ‡ odÅ›wieÅ¼ania. "OdÅ›wieÅ¼ aktywa" odÅ›wieÅ¼a rÃ³wnieÅ¼ rynki wyÅ›wietlane nad listami aktywÃ³w, przy czym w programie dziaÅ‚a tylko 1 rynek kaÅ¼dego typu, moÅ¼na ich tworzyÄ‡ wiÄ™cej, ale "aktywny" jest zawsze pierwszy z listy. WciÅ›niÄ™cie "OdÅ›wieÅ¼ aktywa" tworzy rÃ³wnieÅ¼ inwestorÃ³w i fundusze proporcjonalnie do liczby aktywÃ³w na rynku i uruchamia ich wÄ…tki.
+"OdÅ›wieÅ¼ inwestorÃ³w" tylko odÅ›wieÅ¼a listy inwestorÃ³w i funduszy.
+Po wybraniu aktywa na liÅ›cie, na dole wyÅ›wietlÄ… siÄ™ informacje o nim. Po zaznaczeniu spÃ³Å‚ki moÅ¼na pod listÄ… spÃ³Å‚ek wpisaÄ‡ kwotÄ™, za ktÃ³rÄ… wybrana spÃ³Å‚ka ma odkupiÄ‡ swoje akcje.
+Po wybraniu inwestora/funduszu po prawej wyÅ›wietlÄ… siÄ™ informacje o jednym z nich, wraz z listÄ… posiadanych aktywÃ³w.
+Przycisk "Stop" zatrzymuje dziaÅ‚anie wÄ…tkÃ³w (do serializacji), ale nie od razu. Po wciÅ›niÄ™ciu naleÅ¼y poczekaÄ‡ (co najmniej 10 sekund), Å¼eby mieÄ‡ pewnoÅ›Ä‡, Å¼e wsyztskie wÄ…tki przestaÅ‚y dziaÅ‚aÄ‡.
+Przycisk "zapisz" dokonuje zapisu-serializacji, "wczytaj" powinien dokonywaÄ‡ odczytu-serializacji, ale dziaÅ‚a tylko "czÄ™Å›ciowo" i wyskakujÄ… bÅ‚Ä™dy.
 
-Dzia³ania spó³ek/inwestorów/funduszy wyœwietlaj¹ siê w konsoli.
+DziaÅ‚ania spÃ³Å‚ek/inwestorÃ³w/funduszy wyÅ›wietlajÄ… siÄ™ w konsoli.
