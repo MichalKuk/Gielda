@@ -1,5 +1,3 @@
-Projekt był niestety "zepsuty", nie dało się też wygenerować JARa, stąd wrzucony do repozytoium jedynie w takiej formie.
-
 Opis aplikacji:
 W głównym oknie są listy z aktywami, inwestorami i funduszami.
 Po wcisnięciu "dodaj obiekt" w nowym oknie wybiera się z checkboxa jaki obiekt chce się dodać i wypełnia się pola, albo są one same losowane. Kolejne "dodaj obiekt" tworzy obiekt (jeżeli ma wątek, to go uruchamia). 
